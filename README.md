@@ -28,7 +28,7 @@ The project aims to create an engaging and playful digital experience that combi
 
 ## Home Screen
 
-![Home Screen](images/home.png)
+![Home Screen](library/home.png)
 
 The landing page introduces the game and allows users to begin the experience.
 
@@ -36,7 +36,7 @@ The landing page introduces the game and allows users to begin the experience.
 
 ## Mode Selection
 
-![Mode Selection](images/menu.png)
+![Mode Selection](library/menu.png)
 
 Players can choose between three different environments:
 
