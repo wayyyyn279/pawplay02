@@ -65,3 +65,27 @@ function updateObjects() {
     );
   }
 }
+
+function checkAchievements() {
+
+  if (score === 10) {
+
+    achievementText = "GOOD DOG!";
+    achievementTimer = 120;
+
+  }
+
+  if (score === 20) {
+
+    achievementText = "GREAT JOB!";
+    achievementTimer = 120;
+
+  }
+
+  if (score === 40) {
+
+    achievementText = "PAW MASTER!";
+    achievementTimer = 180;
+
+  }
+}
