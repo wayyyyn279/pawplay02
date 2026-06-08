@@ -48,11 +48,11 @@ Players can choose between three different environments:
 
 ## Gameplay
 
-![Gameplay](library/sunny-garden.png)
+![Gameplay](library/sunnygarden.png)
 
-![Gameplay](library/night-hunter.png)
+![Gameplay](library/nighthunter.png)
 
-![Gameplay](library/bubble-bay.png)
+![Gameplay](library/bubblebay.png)
 
 Moving targets appear on screen and can be clicked or touched to earn points.
 
