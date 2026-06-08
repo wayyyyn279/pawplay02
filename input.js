@@ -85,3 +85,46 @@ function mousePressed() {
     }
   }
 }
+
+function overButton(btn) {
+
+  return (
+
+    mouseX > btn.x - btn.w / 2 &&
+    mouseX < btn.x + btn.w / 2 &&
+    mouseY > btn.y - btn.h / 2 &&
+    mouseY < btn.y + btn.h / 2
+
+  );
+}
+
+function drawButton(btn, label, c) {
+
+  rectMode(CENTER);
+
+  fill(c);
+
+  stroke(255);
+
+  strokeWeight(2);
+
+  rect(
+    btn.x,
+    btn.y,
+    btn.w,
+    btn.h,
+    20
+  );
+
+  noStroke();
+
+  fill(40);
+
+  textSize(22);
+
+  text(
+    label,
+    btn.x,
+    btn.y
+  );
+}
